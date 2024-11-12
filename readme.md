@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository provides an example implementation DEMO of the MAKG (Mechanical Anomaly Knowledge Graph) fault diagnosis method. The MAKG approach leverages advanced knowledge graph techniques, embedding models, and retrieval-augmented generation (RAG) to enhance fault diagnosis in mechanical systems. The example demonstrates how to use this method for diagnosing faults in industrial machines by integrating structured knowledge and unstructured data sources.
+This repository provides an example implementation DEMO of the MAKG (Multi-Agent and Synergistic Knowledge Graph) fault diagnosis method. The MAKG approach leverages advanced knowledge graph techniques, embedding models, and retrieval-augmented generation (RAG) to enhance fault diagnosis in mechanical systems. The example demonstrates how to use this method for diagnosing faults in industrial machines by integrating structured knowledge and unstructured data sources.
 
 ## Features
 
