@@ -1,0 +1,77 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "middle",
+  "dataset_name": "race",
+  "dataset_size": 34613436,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/ehovy/race@2fec9fd81f1dc971569a9b729c43f2f0e6436637/middle/test-00000-of-00001.parquet": {
+      "num_bytes": 404725,
+      "checksum": null
+    },
+    "hf://datasets/ehovy/race@2fec9fd81f1dc971569a9b729c43f2f0e6436637/middle/train-00000-of-00001.parquet": {
+      "num_bytes": 6969931,
+      "checksum": null
+    },
+    "hf://datasets/ehovy/race@2fec9fd81f1dc971569a9b729c43f2f0e6436637/middle/validation-00000-of-00001.parquet": {
+      "num_bytes": 406940,
+      "checksum": null
+    }
+  },
+  "download_size": 7781596,
+  "features": {
+    "example_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "article": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "options": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 42395032,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 1786273,
+      "num_examples": 1436,
+      "dataset_name": "race"
+    },
+    "train": {
+      "name": "train",
+      "num_bytes": 31065250,
+      "num_examples": 25421,
+      "dataset_name": "race"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 1761913,
+      "num_examples": 1436,
+      "dataset_name": "race"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
