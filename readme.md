@@ -17,8 +17,10 @@ To run the example code, you need the following software and libraries:
 
 - Python 3.11+
 - Conda (for environment management)
+- langchain,langchain-community,torch,openai,lightrag-hku are required for pip.
+- It is recommended to use gpt-4o for a better experience. If hardware resources are limited, it is recommended to use a quantitative version of LLM, such as ollama, anything LLM.
 
 ### Installation
 
 1. Clone the repository:
-   cd MAKG-Fault-Diagnosis
+
